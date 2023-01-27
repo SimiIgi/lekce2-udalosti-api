@@ -13,7 +13,7 @@ function zacervenaj() {
 
 function zvacsi() {
     let zvacseny_text = document.querySelector(".spicilev");
-    zvacseny_text.style.fontSize = "17px";
+    zvacseny_text.style.fontSize = "21px";
 
     
 }

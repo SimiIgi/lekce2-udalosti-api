@@ -59,10 +59,17 @@ li {
 	box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
 }
 
+.radioobal {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	background-color: rgb(91, 8, 66);
+	padding: 10px;
+}
+
 .tlacitko {
-	display: inline-block;
 	font-family: Monserrat, sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
@@ -125,7 +132,7 @@ li {
 
 
 .spicilev {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 .cerveny {

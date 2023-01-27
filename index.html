@@ -11,8 +11,6 @@
 </head>
 <body>
 
-	<h1>Změna tříd, události</h1>
-
 	<!-- spici lev -->
 
 	<p class="spicilev">V elipse spí lev.</p>
@@ -26,41 +24,38 @@
 	</button>
 
 
-	<div class="ctverecek zluty"></div>
-
-	<div class="ctverecek zeleny"></div>
-
-	<img class="obrazek" src="obrazky/kocka.jpg">
-
-	<button class="tlacitko">Čudlajs</button>
-
-
 	<!-- RADIO -->
 
-	<button onclick="od_zaciatku(event)" class="tlacitko">
-		pusti to odznova
-	</button>
-	
-	<button onclick="zapni_hudbu()" class="tlacitko">
-		play
-	</button>
-	
-	<button onclick="nastav_zvuk_0()" class="tlacitko">
-		hlasitosť na 0
-	</button>
-	
-	<button onclick="nastav_zvuk_05()" class="tlacitko">
-		hlasitosť na 0.5
-	</button>
-	
-	<button onclick="nastav_zvuk_1()" class="tlacitko">
-		hlasitosť na 1
-	</button>
-	
-	<button onclick="pauzni()" class="tlacitko">
-		pauza
-	</button>
+	<div class="radioobal">
 
+		<button onclick="zapni_hudbu()" class="tlacitko">
+			play
+		</button>
+
+		<button onclick="od_zaciatku(event)" class="tlacitko">
+			pusti to odznova
+		</button>
+		
+
+		<button onclick="pauzni()" class="tlacitko">
+			pauza
+		</button>
+		
+		
+		<button onclick="nastav_zvuk_0()" class="tlacitko">
+			hlasitosť na 0
+		</button>
+		
+		<button onclick="nastav_zvuk_05()" class="tlacitko">
+			hlasitosť na 0.5
+		</button>
+		
+		<button onclick="nastav_zvuk_1()" class="tlacitko">
+			hlasitosť na 1
+		</button>
+		
+		
+	</div>
 	<audio class="radio" src="audio/dingdingdang.mp3" preload="auto"></audio>
 
 </body>
