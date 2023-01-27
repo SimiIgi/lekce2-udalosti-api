@@ -11,12 +11,23 @@ function zacervenaj() {
 
 /* funkcia zvacsi */
 
-function zvacsi() {
+/* function zvacsi() {
     let zvacseny_text = document.querySelector(".spicilev");
     zvacseny_text.style.fontSize = "21px";
 
     
-}
+} */
+
+
+let tlacidlo = document.querySelector(".zvascovanie");
+let text = document.querySelector(".spicilev");
+let fontSize = parseFloat(getComputedStyle(text).fontSize);
+
+tlacidlo.addEventListener("click", function () {
+    fontSize += 1;
+    text.style.fontSize = fontSize + "px";
+});
+
 
 
 /* funkcie na radio */
@@ -50,3 +61,5 @@ function nastav_zvuk1() {
 function pauzni() {
     mojeradio.pause();
 }
+
+
