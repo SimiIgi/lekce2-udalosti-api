@@ -62,13 +62,14 @@ li {
 .tlacitko {
 	display: inline-block;
 	font-family: Monserrat, sans-serif;
-	font-size: 36px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
 	text-shadow: 1px 1px 0px #c5376d;
 	padding: 10px 30px;
+	margin: 10px;
 	position: relative;
 	cursor: pointer;
 	border: none;
@@ -121,3 +122,13 @@ li {
 	color: black;
 	border-color: blue;
 }
+
+
+.spicilev {
+	font-size: 16px;
+}
+
+.cerveny {
+	color: red;
+}
+
